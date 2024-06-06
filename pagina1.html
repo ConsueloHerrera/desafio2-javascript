@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío 2 - JavaScript</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+
+  <body>
+    <section id="section1">
+      <div class="container">
+        <div>Haz click en la imagen para cambiar el color del borde</div>
+        <img
+          src="/assets/img/logodesafio.png"
+          alt=""
+          id="image"
+          class="image" />
+        <button id="btn-1">Desafío siguiente</button>
+      </div>
+    </section>
+    <section id="section2" style="display: none">
+      <div class="container">
+        <div>Elige 10 stickers en total</div>
+        <div class="gallery-container">
+          <div class="selector">
+            <img src="/assets/img/img2.png" alt="" class="gallery-image" />
+            <input type="number" id="input-1" />
+          </div>
+          <div class="selector">
+            <img src="/assets/img/img1.png" alt="" class="gallery-image" />
+            <input type="number" id="input-2" />
+          </div>
+          <div class="selector">
+            <img src="/assets/img/img3.png" alt="" class="gallery-image" />
+            <input type="number" id="input-3" />
+          </div>
+        </div>
+        <div id="text" class="text"></div>
+        <button id="btn-5">Verificar</button>
+        <div class="navigationButtons-container">
+          <button id="btn-2">Desafío anterior</button>
+          <button id="btn-3">Desafío siguiente</button>
+        </div>
+      </div>
+    </section>
+    <section id="section3" style="display: none">
+      <div class="container">
+        <div>Ingresa la contraseña correcta</div>
+        <div class="input-container">
+          <select name="" id="select-1">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select name="" id="select-2">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select name="" id="select-3">
+            <option value="0">0</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <div id="text2" class="text"></div>
+        <button id="btn-6">Ingresar password</button>
+        <div class="navigationButtons-container">
+          <button id="btn-4">Desafío anterior</button>
+        </div>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
